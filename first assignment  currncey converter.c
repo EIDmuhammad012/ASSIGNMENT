@@ -26,14 +26,14 @@ int main()
   {printf("\n\nEnter the currency in Dollar= ");
     scanf("%f", &ab);
     ans=ab/57859.50 ;
-    printf("\n\nThe currency in Bitcoin is %.2f$",ans);
+    printf("\n\nThe currency in Bitcoin is %.4f$",ans);
   	
   }
  else if (ch==4)
   {printf("\n\nEnter the currency in Ruppes= ");
     scanf("%f", &ab);
     ans=ab/8981240.89 ;
-    printf("\n\nThe currency in Bitcoin is %.2f$",ans);
+    printf("\n\nThe currency in Bitcoin is %.4f$",ans);
 }
   return(0);
 }
