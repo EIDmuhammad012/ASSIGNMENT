@@ -22,6 +22,18 @@ int main()
     ans=ab*160;
     printf("\n\nThe currency in Rupees is %.2f$",ans);
   }
-
+  else if(ch==3)
+  {printf("\n\nEnter the currency in Dollar= ");
+    scanf("%f", &ab);
+    ans=ab/57,859.50 ;
+    printf("\n\nThe currency in Bitcoin is %.2f$",ans);
+  	
+  }
+ else if (ch==4)
+  {printf("\n\nEnter the currency in Ruppes= ");
+    scanf("%f", &ab);
+    ans=ab/8,981,240.89 ;
+    printf("\n\nThe currency in Bitcoin is %.2f$",ans);
+}
   return(0);
 }
